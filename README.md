@@ -1,2 +1,3 @@
-# demy-microservices
-Demo Microservices Implementationd
+# demo-microservices
+
+Demo Microservices Implementation
