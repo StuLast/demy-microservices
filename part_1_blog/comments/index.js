@@ -26,6 +26,6 @@ app.post('/posts/:id/comments', (req, res) => {
   res.status(201).send(comments);
 });
 
-app.listen(4010, () => {
-  console.log('Comments service up on port 4010');
+app.listen(4001, () => {
+  console.log('Comments service up on port 4001');
 })
