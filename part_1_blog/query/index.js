@@ -69,7 +69,7 @@ app.post('/events', (req, res) => {
 // ==============
 const boot = async () => {
   try {
-    const { data } = await axios.get('http://localhost:4005/events');
+    const { data } = await axios.get('http://event-bus-srv:4005/events');
     if (data) {
       data.forEach(event => {
         eventsDirector(event.type, event.data);
