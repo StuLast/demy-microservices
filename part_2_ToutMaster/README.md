@@ -6,7 +6,7 @@ Install the following:
 
 - NodeJS : https://nodejs.org/en/
 - Docker Desktop : https://www.docker.com/products/docker-desktop/
-- Install Kubernetes : https://kubernetes.io/docs/setup/
+- Install Kubernetes from Docker Desktop : https://kubernetes.io/docs/setup/
 - Install kubectl: https://kubernetes.io/docs/tasks/tools/
 
 Enable Kubernetes in Docker Desktop
