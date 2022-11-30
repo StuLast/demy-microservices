@@ -14,14 +14,13 @@ spec:
     spec:
       containers:
         - name: comments
-          image: stuartlast/comments:latest
+          image: stuartlast/comments
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: comments-clusterip-srv
+  name: comments-srv
 spec:
-  type: ClusterIP
   selector:
     app: comments
   ports:

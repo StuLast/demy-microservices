@@ -14,14 +14,13 @@ spec:
     spec:
       containers:
         - name: moderation
-          image: stuartlast/moderation:latest
+          image: stuartlast/moderation
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: moderation-clusterip-srv
+  name: moderation-srv
 spec:
-  type: ClusterIP
   selector:
     app: moderation
   ports:
